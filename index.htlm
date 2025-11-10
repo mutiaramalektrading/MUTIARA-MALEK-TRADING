@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MUTIARA MALEK TRADING (MMT) offers professional cleaning, renovation, and manpower supply services in Kuala Lumpur.">
+    <title>MUTIARA MALEK TRADING (MMT) - Cleaning, Renovation & Manpower Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#333; }
+        header { background: linear-gradient(to right, #0073e6, #005bb5); color:#fff; padding:60px 20px; text-align:center; }
+        header h1 { margin:0; font-size:2.5em; }
+        header p { font-size:1.2em; margin-top:10px; }
+
+        nav { background:#005bb5; display:flex; justify-content:center; padding:10px 0; position:sticky; top:0; z-index:1000; }
+        nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
+        nav a:hover { text-decoration:underline; }
+
+        section { padding:60px 20px; max-width:1200px; margin:auto; }
+        h2 { text-align:center; margin-bottom:40px; font-size:2em; color:#0073e6; }
+
+        .services, .manpower { display:flex; flex-wrap:wrap; justify-content:space-around; gap:20px; }
+        .card { flex:1 1 300px; background:#f2f2f2; padding:20px; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:transform 0.3s; }
+        .card:hover { transform:translateY(-5px); }
+        .card img { max-width:100%; border-radius:10px; margin-bottom:15px; }
+
+        #contact { background:#f9f9f9; text-align:center; }
+        #contact a { display:inline-block; margin:10px; padding:12px 25px; background:#0073e6; color:#fff; border-radius:5px; text-decoration:none; font-weight:bold; }
+        #contact iframe { margin-top:20px; width:100%; height:400px; border:0; border-radius:10px; }
+
+        footer { background:#333; color:#fff; text-align:center; padding:20px 0; margin-top:40px; }
+        footer a { color:#0073e6; text-decoration:none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MUTIARA MALEK TRADING (MMT)</h1>
+    <p>Professional Cleaning, Renovation & Manpower Services in Kuala Lumpur</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#cleaning">Cleaning</a>
+    <a href="#renovation">Renovation</a>
+    <a href="#manpower">Manpower Supply</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>MMT is a professional renovation, cleaning, and manpower supply contractor offering complete maintenance and facility services for homes, offices, warehouses, and industries. We provide expert renovation, deep cleaning, painting, plumbing, and repair services with a reliable and trained team.</p>
+    <p>MMT also supplies skilled and unskilled manpower — including helpers, loaders, and cleaners — for companies, factories, and courier firms. Trusted contractor for renovation, cleaning, and manpower supply solutions with quality work, on-time service, and customer satisfaction.</p>
+</section>
+
+<section id="cleaning">
+    <h2>Cleaning Services</h2>
+    <div class="services">
+        <div class="card">
+            <img src="images/office-cleaning.jpg" alt="Office Cleaning">
+            <h3>Office & Commercial Cleaning</h3>
+            <p>We provide professional cleaning services for offices, malls, and commercial spaces. One-time or contract-based cleaning available.</p>
+        </div>
+        <div class="card">
+            <img src="images/condo-cleaning.jpg" alt="Condominium Cleaning">
+            <h3>Condominium & Residential</h3>
+            <p>Complete cleaning solutions for condominiums and residential buildings, ensuring spotless results every time.</p>
+        </div>
+    </div>
+</section>
+
+<section id="renovation">
+    <h2>Renovation Services</h2>
+    <div class="services">
+        <div class="card">
+            <img src="images/painting.jpg" alt="Painting">
+            <h3>Painting</h3>
+            <p>Interior and exterior painting for homes, offices, and commercial spaces using high-quality materials.</p>
+        </div>
+        <div class="card">
+            <img src="images/marble.jpg" alt="Marble Installation">
+            <h3>Marble Installation & Polishing</h3>
+            <p>Expert marble installation and polishing services to give floors a premium finish. Available for homes and commercial projects.</p>
+        </div>
+    </div>
+</section>
+
+<section id="manpower">
+    <h2>Manpower Supply</h2>
+    <div class="manpower">
+        <div class="card">
+            <img src="images/skilled.jpg" alt="Skilled Workers">
+            <h3>Skilled Workers</h3>
+            <p>Electricians, plumbers, painters, and tile fitters supplied to companies and warehouses as needed.</p>
+        </div>
+        <div class="card">
+            <img src="images/unskilled.jpg" alt="Unskilled Workers">
+            <h3>Unskilled Workers</h3>
+            <p>Helpers, loaders, cleaners for warehouses, courier companies, and factories. Reliable and trained staff.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <a href="tel:+601121013467">Call Now</a>
+    <a href="mailto:mutiaramalektrading@gmail.com">Email Us</a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.123456789!2d101.683!3d3.150!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc37abc1234567%3A0xabcdef1234567890!2sNo%2025%20Lorong%20Pikrama%205%2C%20Bandar%20Baru%20Sri%20Petaling%2C%2057000%20Kuala%20Lumpur!5e0!3m2!1sen!2smy!4v1600000000000!5m2!1sen!2smy" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2025 MUTIARA MALEK TRADING (MMT). All Rights Reserved.</p>
+    <p>Follow us: <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+</footer>
+
+</body>
+</html>
